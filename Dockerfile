@@ -1,4 +1,4 @@
 FROM osrm/osrm-backend
 
 RUN apt-get update && \
-    apt-get install curl
+    apt-get install -y curl
